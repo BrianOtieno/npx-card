@@ -1,0 +1,38 @@
+{
+  "name": "brianotieno",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "brianotieno": "./card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianOtieno/npx-card.git"
+  },
+  "scripts": {
+    "test": "node card.js",
+    "pub": "npm version major & npm publish"
+  },
+  "keywords": [
+    "card",
+    "Brian Otieno",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Brian Otieno",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "cli-spinners": "^3.0.0",
+    "inquirer": "^9.2.20",
+    "open": "^10.1.0",
+    "ora": "^8.0.1",
+    "request": "^2.88.2"
+  }
+}
